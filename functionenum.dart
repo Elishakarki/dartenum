@@ -1,9 +1,8 @@
+// Part1
 // Write a Dart function that takes a Weekday enum as input and prints a message indicating whether it's a weekday or a weekend day.
 void main() {
-  print(weekday);
+  weektype();
 }
-
-
 
 enum Weekday {
   sunday,
@@ -16,10 +15,10 @@ enum Weekday {
   saturday
 }
 
-var  weekday = Weekday.friday;
+Weekday weekday = Weekday.friday;
 
 void weektype() {
-  switch (weekday) {
+  switch (Weekday.sunday) {
     case Weekday.friday:
     case Weekday.sunday:
       print("It's weekend");
@@ -28,4 +27,3 @@ void weektype() {
       print("It's a weekday");
   }
 }
-

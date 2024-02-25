@@ -1,3 +1,4 @@
+//part2
 // Define an enum called Direction with values representing directions:
 // north, south, east, and west. Add associated values
 // to the enum to represent the number of steps in that direction (e.g., north: 2).
